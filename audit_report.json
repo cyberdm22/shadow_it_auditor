@@ -1,0 +1,30 @@
+[
+    {
+        "statutory_violation": "IT Rules 2011 - Rule 3(i)",
+        "threat_type": "Password / Credential Leak",
+        "violator_ip": "192.168.1.102",
+        "target_destination": "chat.openai.com",
+        "raw_evidence": "[2026-06-15 08:12:05] IP: 192.168.1.102 | DEST: chat.openai.com | PAYLOAD: Can you debug this connection string? db_url=admin:password=SuperSecret123@database.internal"
+    },
+    {
+        "statutory_violation": "IT Rules 2011 - Rule 3(ii)",
+        "threat_type": "Financial Information Leak",
+        "violator_ip": "192.168.1.20",
+        "target_destination": "chat.openai.com",
+        "raw_evidence": "[2026-06-15 08:15:42] IP: 192.168.1.20 | DEST: chat.openai.com | PAYLOAD: summarize this client profile: John Doe, Card: 4532-1122-3344-5566, Exp: 12/28"
+    },
+    {
+        "statutory_violation": "IT Rules 2011 - Rule 3(iii) / 3(v)",
+        "threat_type": "Medical Record Exfiltration",
+        "violator_ip": "192.168.1.88",
+        "target_destination": "claude.ai",
+        "raw_evidence": "[2026-06-15 08:33:10] IP: 192.168.1.88 | DEST: claude.ai | PAYLOAD: Draft an email to patient_id=99281 regarding their recent diagnosis of Type 2 Diabetes."
+    },
+    {
+        "statutory_violation": "IT Rules 2011 - Rule 3(vi)",
+        "threat_type": "Biometric Data Exfiltration",
+        "violator_ip": "192.168.1.55",
+        "target_destination": "gemini.google.com",
+        "raw_evidence": "[2026-06-15 08:50:22] IP: 192.168.1.55 | DEST: gemini.google.com | PAYLOAD: Optimize this code block for processing user fingerprint_hash data."
+    }
+]
