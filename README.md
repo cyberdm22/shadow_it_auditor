@@ -1,6 +1,6 @@
 # AI Shadow-IT Log Auditor
 
-**Data Loss Prevention (DLP) Engine Mapped to the Information Technology Rules, 2011.**
+**Data Loss Prevention (DLP) Engine Mapped to the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or information) Rules, 2011 (India)**
 
 ---
 
